@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Content Description -->
+    <string name="refreshlistview_arrow">Content Description Arrow</string>
+    <string name="refreshlistview_updating">Updating…</string>
+    <string name="refreshlistview_release">Release to refresh…</string>
+    <string name="refreshlistview_pulldown">Pull down to refresh…</string>
+    <string name="refreshlistview_no_update">"No past update"</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="message_empty_layout_changes">Add an item above to get started.</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="app_name">KikiLink</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_email">Email</string>
+    <!-- Message -->
+    <string name="STR_MSG_ACTIVE_ACCOUNT">Please check Email to active your account!</string>
+    <string name="STR_MSG_SUCCESS">Success</string>
+    <string name="STR_MSG_CODE_002">Invalid user auth</string>
+    <string name="STR_MSG_CODE_004">Cannot save data</string>
+    <string name="STR_MSG_CODE_001">Invalid request</string>
+    <string name="STR_MSG_CODE_008">This user is disabled</string>
+    <string name="STR_MSG_CODE_102">Token expired</string>
+    <string name="STR_MSG_CODE_999">Exception error</string>
+    <string name="STR_MSG_CODE_901">Invalid email or password</string>
+    <string name="STR_MSG_CODE_902">Cannot logout</string>
+    <string name="STR_MSG_CODE_903">Old password is invalid</string>
+    <string name="STR_MSG_CODE_904">Password need at least 8 characters length</string>
+    <string name="STR_MSG_CODE_905">Doctor not in the system</string>
+    <string name="STR_MSG_CODE_906">Email is invalid</string>
+    <string name="STR_MSG_CODE_907">Email exist</string>
+    <string name="STR_MSG_CODE_908">No file uploaded on "avatar_upload"</string>
+    <string name="STR_MSG_CODE_909">Member is not associated with this doctor</string>
+    <string name="STR_MSG_CODE_912">Cannot get email from Facebook</string>
+    <string name="STR_MSG_CODE_913">Member type cannot be login using Facebook</string>
+    <string name="STR_MSG_CODE_914">Cannot create member account</string>
+    <string name="STR_MSG_CODE_915">Facebook token is invalid</string>
+    <string name="STR_MSG_CODE_916">Cannot get associated doctor ID</string>
+    <string name="STR_MSG_CODE_917">Member not in the system</string>
+    <string name="STR_MSG_CODE_918">This member do not has associated doctor</string>
+    <string name="STR_MSG_CODE_923">Doctor account inactive</string>
+    <string name="STR_MSG_CODE_924">Apply doctor failed</string>
+    <string name="STR_MSG_PASSWORD_NOT_MATCH">Password does not match</string>
+    <string name="STR_MSG_REQUEST_TIMED_OUT">Request time out</string>
+    <string name="STR_MSG_WARNING">Warring</string>
+    <string name="STR_MSG_TRY_AGAIN">Try again</string>
+    <string name="STR_BTN_EXIT">Exit</string>
+    <string name="STR_MSG_WRONG_VALUE_DURATION">Wrong value format, please insert number.</string>
+    <string name="STR_MSG_CONNECT_NETWORK">Network connected!</string>
+    <string name="STR_MSG_NOT_CONNECT_NETWORK">You are not connected to any network!</string>
+    <string name="STR_MSG_UPDATE_PICTURE">Update Profile picture</string>
+    <string name="STR_MSG_HOW_TO_SET_PICTURE">How do you want to set your picture?</string>
+    <string name="STR_BTN_GALLERY">Gallery</string>
+    <string name="STR_BTN_CAMERA">Camera</string>
+    <string name="label_address">Address</string>
+    <string name="label_org">Company</string>
+    <string name="label_note">Note</string>
+    <string name="label_nick">Nickname</string>
+    <string name="label_web">Website</string>
+    <string name="label_im">Instant message</string>
+    <string name="label_sns">SNS account</string>
+    <string name="STR_MSG_CLICK_HERE">Click here</string>
+    <string name="label_event_day">Event Day</string>
+    <string name="hint_extended_street">Extra address</string>
+    <string name="hint_nick">Nickname</string>
+    <string name="hint_note">Note</string>
+    <string name="hint_prefix">Name prefix</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_middle_name">Middle name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_new_pass">Please enter new password</string>
+    <string name="hint_new_pass_againt">Input password again</string>
+    <string name="hint_new_input_your_pass">Input your password</string>
+    <string name="group_name_label">Choose group</string>
+    <string name="ungrouped_label">Ungrouped</string>
+    <string name="c_cardview_save_to_local">Save to Contacts</string>
+    <string name="c_not_save_to_local_contact">Not saved to Contacts</string>
+    <string name="c_add_other_item">Add Field</string>
+    <string name="add_backside_card_hint">Add backside image</string>
+    <string name="merge_contact">Merge phone contacts</string>
+    <string name="c_msg_recapture_mycard">Capture my card</string>
+    <string name="c_card_holder_menu_delete">Delete</string>
+    <string name="menu_delete">Delete card</string>
+    <string name="hint_suffix">Name suffix</string>
+    <string name="c_title_card_not_success">Cards to be recognized</string>
+    <string name="c_tips_create_my_5d_card">Complete your Profile now!</string>
+    <string name="title_activity_item_card_menu_adapter">ItemCardMenuAdapter</string>
+    <string name="Sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="copyright">Copyright&#174; 2015 by</string>
+    <string name="version">Version</string>
+    <string name="title_activity_add_email_step1">AddEmail_step1Activity</string>
+    <string name="addemail_step1">Enter new Email Address</string>
+    <string name="addemail_step2_text1">The Confirmation email has been sent to:</string>
+    <string name="btnConfirm">Confirm</string>
+    <!-- layour add email step 2 -->
+
+    <string name="addemail_step2_text2">abc@email.com</string>
+    <string name="addemail_step2_text3">Please check and enter the confirmation in the email</string>
+    <string name="addemail_step2_text4">If you could not find the confirmation email in the Inbox or Spam folder,please tap button below</string>
+    <string name="title_activity_add_email_step2">AddEmail_step2Activity</string>
+    <string name="addemail_step2_etCode">Enter verification code</string>
+    <string name="addemail_step2_btnsucc">Successfully added</string>
+    <string name="addemail_step2_btnresend">Resend Email</string>
+    <string name="app_picker_name">Applications</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_title">1D barcodes</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_try_bsplus">Try Barcode Scanner+</string>
+    <string name="preferences_try_bsplus_summary">Enhanced with new features and interface</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+    <string name="wifi_ssid_label">Network Name</string>
+    <string name="wifi_type_label">Type</string>
+
+    <!-- layout myAcount -->
+    <string name="account_email_phone">Email Address /Phone Number</string>
+    <string name="btn_addphone">Add Phone Number</string>
+    <string name="btn_addEmail">Add Email Address</string>
+    <string name="text_myaccount">All the Address and Phone number can be used to sign in and find password</string>
+    <string name="account_pass_setting">Password Setting</string>
+    <string name="text_changePass">Change password</string>
+    <string name="account_text3">Who can see my card updates</string>
+    <string name="account_text4">People Who have my card</string>
+    <string name="account_text5">People in my Card List</string>
+    <string name="btn_Singout">Sign Out</string>
+    <string name="whats_new_title">Check out what has changed</string>
+    <string name="whats_new">Whats new?</string>
+    <string name="text_was_copied_to_clipboard">Text copied to clipboard.</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="image_could_not_be_read">The image was not found in the data sent.</string>
+    <string name="image_does_not_exist">The image was not found on your phone.</string>
+    <string name="camera_app_not_found">Camera app not found.</string>
+    <string name="gallery_io_error">Image could not be loaded.</string>
+    <string name="media_store_returned_null">Gallery returned no image to me.</string>
+    <string name="camera_app_error">Camera app error.</string>
+    <string name="camera_no_image_returned">Camera app returned no image.</string>
+    <string name="please_wait">Please wait</string>
+    <string name="loading_image">Loading image..</string>
+    <string name="please_tap_on_column">Please tap on a text column first</string>
+    <string name="get_more_languages">Get more languages</string>
+    <string name="aborts_scan">Aborts current scan!</string>
+    <string name="send_mail">Drop me a line.</string>
+    <string name="hocr2pdf_title"><a href="http://www.exactcode.com/site/open_source/exactimage/hocr2pdf/">hocr2pdf</a> from exactCODE</string>
+    <string name="hocr2pdf_summary">hocr2pdf is a command line front-end for the image processing library to create perfectly layouted, searchable PDF files from hOCR, annotated HTML, input obtained from an OCR system.</string>
+    <string name="leptonica_title"><a href="http://www.leptonica.com/">leptonica</a></string>
+    <string name="leptonica_summary">Leptonica is a pedagogically-oriented open source site containing software that is broadly useful for image processing and image analysis applications.</string>
+    <string name="tesseract_ocr_title"><a href="https://code.google.com/p/tesseract-ocr/">tesseract-ocr</a></string>
+    <string name="tesseract_ocr_summary">Tesseract is probably the most accurate open source OCR engine available.</string>
+    <string name="contact_welcome_text">Hi, my name is Renard. I have created the text fairy in my free time. I hope she is of use to you.</string>
+    <string name="download_failed">Downloading of %1$s failed!</string>
+    <string name="language_downloaded">%1$s language data downloaded</string>
+    <string name="tips">Tips</string>
+    <string name="ocr_language_delete">delete</string>
+    <string name="download_title">Language data for %s</string>
+    <string name="ocr_language_title">Choose OCR Language</string>
+    <string name="pref_summary_rate">Rate the text fairy</string>
+    <string name="pref_summary_license">Learn about the software that was used to create the Textfairy</string>
+    <string name="pref_summary_contact">Learn about the creator and supply feedback</string>
+    <string name="pref_summary_default_ocr_lang">Download and manage languages for text recognition.</string>
+    <string name="pref_summary_data_directory">Specify the directory where the text fairy should look for language files. Only change this if you know what you are doing.</string>
+    <string name="pref_title_data_directory">Tessdata directory</string>
+    <string name="pref_title_rate">Rate</string>
+    <string name="pref_title_default_ocr_lang">Document language</string>
+    <string name="pref_title_help">Show tips</string>
+    <string name="pref_title_contact">Contact information</string>
+    <string name="pref_title_license">Licence info</string>
+    <string name="pref_summary_help">Tips for improving the optical character recognition (OCR)</string>
+    <string name="error_create_file">I\'m sorry but was not able to store your photo on the SD card.</string>
+    <string name="share_subject">scanned text</string>
+    <string name="save_success">Save successful</string>
+    <string name="save_fail">Save failed!</string>
+    <string name="share_chooser_title">Select how you want to share the text</string>
+    <string name="progress_start">starting OCR Process</string>
+    <string name="download_language">download</string>
+    <string name="progress_dewarp">Straightening text</string>
+    <string name="progress_ocr">Optical character recognition in progress</string>
+    <string name="delete">Delete </string>
+    <string name="edit_title">Change title</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_dialog_title">Enter a title for your document</string>
+    <string name="delete_error">Sorry, I could not delete this document</string>
+    <string name="error_could_not_take_photo">Sorry, I could not read the photo</string>
+    <string name="empty" />
+    <string name="cropping_image">Cropping image</string>
+    <string name="error_title">Error</string>
+    <string name="error_load_file">I\'m sorry but I was not able to find the file. Maybe it was deleted?</string>
+    <string name="pdf_creation_message">Creating  your PDF!</string>
+    <string name="option_view_mode">switch view</string>
+    <string name="document_layout_dialog">What shall I do?</string>
+    <string name="layout_complex">Scan multiple columns of text</string>
+    <string name="layout_simple">Scan a single column of text</string>
+    <string name="saving_document">Saving Document</string>
+    <string name="button_column_pick_completed">start text recognition</string>
+    <string name="export_as_pdf">create PDF</string>
+    <string name="delete_language_title">Delete %1$s?</string>
+    <string name="delete_language_message">You\'ll free up %1$d kb.</string>
+    <string name="delete_dialog_message">Deleting Documents..</string>
+    <string name="progress_pfd_creation">Creating page %1$d/%2$d for %3$s.</string>
+    <string name="option_text">text settings</string>
+    <string name="option_content">table of content</string>
+    <string name="option_line_spacing">line spacing</string>
+    <string name="option_text_alignment">text alignment</string>
+    <string name="options_preview_text">This is a preview of your current text settings. Press the back key to continue reading.\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</string>
+    <string name="progress_analyse_layout">I\'m analysing the layout. Please wait some seconds.</string>
+    <string name="progress_image_detection">Searching for text</string>
+    <string name="progress_assemble_pix">I\'m assembling the final picture now.</string>
+    <string name="progress_choose_columns">Please choose the text and images you want in the final document</string>
+    <string name="new_photo">new photo</string>
+    <string name="no_sd_card">No SD card mounted. Is the phone connected to your pc? If so please remove it and try again.</string>
+    <string name="rotate_right">rotate right</string>
+    <string name="rotate_left">rotate left</string>
+    <string name="content_description_fairy">the helpful text fairy</string>
+    <string name="crop_title">Choose image section</string>
+    <string name="text_options_title">change your text settings</string>
+    <string name="app_options_title">Change your settings</string>
+    <string name="edit_title_hint">enter a title</string>
+    <string name="option_gallery_title">pick an image from the gallery</string>
+    <string name="option_camera_title">make a new photo</string>
+    <string name="option_preference_title">preferences</string>
+    <string name="show_tips">show tips</string>
+    <string name="document_help_title">You can manage your document here.</string>
+    <string name="fairy_welcome_bubble">I\'m the Text Fairy</string>
+    <string name="new_photo_gallery">pick gallery photo</string>
+    <string name="show_documents">manage documents</string>
+    <string name="join">join</string>
+    <string name="join_documents_title">Joining Documents</string>
+    <string name="join_documents_result">%1$d documents joined</string>
+    <string name="start_app">let\'s go</string>
+    <string name="install_error_disk_space">Not enough disk space. You need to free  %1$d MB on your SD card</string>
+    <string name="install_error">Could not install configuration files.</string>
+    <string name="toc_title">table of contents</string>
+    <string name="start_text_1">What i can do!…</string>
+    <string name="start_text_2">I extract editable text from pictures. Tap on me to learn more…</string>
+    <string name="start_text_3">Take a new picture or chose one from your gallery…</string>
+    <string name="start_text_4">Crop the picture and tell me if it contains more than one column of text…</string>
+    <string name="start_text_5">You can now edit the scanned document or send it away as pdf file…</string>
+    <string name="start_text_6">Try it out! I will be helping you if you got question…</string>
+    <string name="start_text_7">… but do not forget:  even  androids are not perfekt. Not every picture can be converted to text…</string>
+    <string name="start_text_8">But i\'ll do my best…</string>
+    <string name="start_text_9">You can send me feedback. Tap on preferences to find the contact details.</string>
+    <string name="start_text_10">What is a robot’s favorite type of music?…</string>
+    <string name="start_text_11">Heavy metal!</string>
+    <string name="start_text_12">Two bytes meet.  The first byte asks, “Are you ill?” The second byte replies…</string>
+    <string name="start_text_13">“No, just feeling a bit off.”</string>
+    <string name="start_text_14">There are two ways to write error-free computer programs…</string>
+    <string name="start_text_15">only the third one works.</string>
+    <string name="start_text_16">In the beginning God created the Bit and the Byte…</string>
+    <string name="start_text_17">And from those he created the Word.</string>
+    <string name="start_text_18">Why are lawyers safe from the threat of automation taking over their professions…</string>
+    <string name="start_text_19">No one would build a robot to do nothing.</string>
+    <string name="start_text_20">A robot walks into a bar…</string>
+    <string name="start_text_21">He looks at the bartender and says "Can I get a screwdriver?"</string>
+    <string name="document_list_help_title">Here you can manage your scanned documents</string>
+    <string name="toc_help_title">Here you see a list of all pages in the document</string>
+    <string name="no_ocr">No ocr. Save image unchanged.</string>
+    <string name="crop_help_title">You can crop and rotate your photo now</string>
+    <string name="continue_ocr">continue</string>
+    <string name="default_ocr_language">eng</string>
+    <string name="default_ocr_display_language">English</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="ocr_accuracy">OCR accuracy: %1$d</string>
+    <string name="text_to_speech">speak text</string>
+    <string name="ocr_result_is_bad">That did not go so well. I hope the tips help.</string>
+    <string name="ocr_result_is_ok">I think i got most of the text.</string>
+    <string name="ocr_result_is_good">Yeah I\'m happy with my reading skills!</string>
+    <string name="play">play</string>
+    <string name="stop">stop</string>
+    <string name="tts_init_error">Text to speech could not load.</string>
+    <string name="open_settings">speech settings</string>
+    <string name="set_tts_language">Please set the appropriate language in your text to speech settings.</string>
+    <string name="cannot_speak_language">Your phone cannot speak %s. Pick another language.</string>
+    <string name="choose_language">Pick a language for text to speech.</string>
+    <string name="share_text">share text</string>
+    <string name="help_to_improve">Feedback</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="product_tour">Product tour</string>
+    <string name="empty_grid_greeting">Hello</string>
+    <string name="empty_grid_camera">Tap here to convert text from a new image.</string>
+    <string name="empty_grid_gallery">And tap here to convert text from an existing image</string>
+    <string name="empty_grid_fairy">PS: Tap on the fairy for even more info.</string>
+    <string name="contribute_title">Improve the app</string>
+    <string name="contribute_text">Creating an OCR app is hard. But you can help me to improve the app.</string>
+    <string name="rating_title">Rate the app</string>
+    <string name="rating_text">The app is useful to you? I\'m always happy about helpful reviews.</string>
+    <string name="feedback_title">Send feedback</string>
+    <string name="feedback_text_1">The app is not working as expected?</string>
+    <string name="feedback_text_2">You have a feature suggestion?</string>
+    <string name="feedback_text_3">You found a nasty bug?</string>
+    <string name="beta_test_title">Become a beta tester</string>
+    <string name="beta_test_text_1">Try new features as soon as possible?</string>
+    <string name="beta_test_text_2">Influence development of new features?</string>
+    <string name="enroll_as_beta_tester">Enroll in beta test program.</string>
+    <string name="about">About</string>
+    <string name="feedback_subject">Text fairy feedback</string>
+    <string name="beta_test_body">Please inform me when a new version is available for beta testing.</string>
+    <string name="beta_test_subject">Text fairy beta test</string>
+    <string name="app_version">Version %s</string>
+    <string name="image_not_32_bit">Image needs to be 32 bit</string>
+    <string name="image_format_unsupported">Image format not recognized. Only png, jpeg or bmp files are currently supported.</string>
+    <string name="tts_not_available">Text to Speech is not available on your phone.</string>
+    <string name="empty_document">Document contains no text.</string>
+    <string name="join_beta_test_community">Join the beta testers community.</string>
+    <string name="join_beta_program">Become a beta tester</string>
+    <string name="follow_steps">Please follow these steps</string>
+    <string name="click_image_below">Once you are a member click on the image below</string>
+    <string name="first_step">First step</string>
+    <string name="second_step">Second step</string>
+    <string name="first_step_detail">If you are not a member the second step won\'t work</string>
+    <string name="second_step_first_detail">You can opt out of the beta program anytime</string>
+    <string name="second_step_second_detail">Please drop me a mail if you find a bug</string>
+    <string name="title_activity_capture">CaptureActivity</string>
+    <string name="title_activity_ocr">OCRActivity</string>
+    <string name="title_activity_ocrresult">OCRResultActivity</string>
+    <string name="title_activity_crop_card">CropCardActivity</string>
+    <string name="manager_group">Manage Group</string>
+    <string name="all_card_group">All Cards (168)</string>
+    <string name="item_group">Group 1</string>
+    <string name="item_group1">Group 2</string>
+    <string name="help_faq_3_content_profile">Android apps make life easier and are easy to understand. When people use your app for the first time, they should intuitively grasp the most important features. The design work doesn\'t stop at the first use, though Android apps remove ongoing chores like file management and syncing Simple tasks never require complex procedure, and complex tasks are tailored to the human hand and mind.</string>
+    <string name="content_bachuo_notify">It will take several minutes to backup your CardHolder data which depends on your phone.</string>
+    <string name="help_faq_1_title">Why it show the sync failed?</string>
+    <string name="help_faq_2_title">Why I cannot receive the activation email?</string>
+    <string name="help_faq_3_title">How to save the cards in the phone	contacts?</string>
+    <string name="help_faq_1_content">Starting with Ice Cream Sandwich, we focused the design of Android around these three overarching goals, which apply to our core apps as well as the system at large.</string>
+    <string name="help_faq_2_content">Beauty is more than skin deep. Android apps are sleek and aesthetically pleasing on multiple levels. Transitions are fast and clear; layout and typography are crisp and meaningfull.</string>
+    <string name="help_term_title">KIKILINK TERMS OF SERVICES</string>
+    <string name="help_term_content">Starting with Ice Cream Sandwich, we focused the design of Android 
+around these three overarching goals, which apply to our core apps 
+as well as the system at large. As you work with Android, consider 
+these goals.\n\n
+
+Beauty is more than skin deep. Android apps are sleek and aesthetically 
+pleasing on multiple levels. Transitions are fast and clear; layout and 
+typography are crisp and meaningful. App icons are works of art in their 
+own right. Just like a well-made tool, your app should strive to combine 
+beauty, simplicity and purpose to create a magical experience that is 
+effortless and powerful.\n\n
+
+Android apps make life easier and are easy to understand. When people 
+use your app for the first time, they should intuitively grasp the most 
+important features. The design work doesn\'t stop at the first use, though. 
+Android apps remove ongoing chores like file management and syncing. 
+Simple tasks never require complex procedures, and complex tasks are 
+tailored to the human hand and mind. People of all ages and cultures 
+feel firmly in control, and are never overwhelmed by too many choices 
+or irrelevant flash.</string>
+
+    <string name="help_privacy_title">KIKILINK PRIVACY POLICY</string>
+    <string name="help_privacy_content">Starting with Ice Cream Sandwich, we focused the design of Android 
+around these three overarching goals, which apply to our core apps 
+as well as the system at large. As you work with Android, consider 
+these goals.\n\n
+
+Beauty is more than skin deep. Android apps are sleek and aesthetically 
+pleasing on multiple levels. Transitions are fast and clear; layout and 
+typography are crisp and meaningful. App icons are works of art in their 
+own right. Just like a well-made tool, your app should strive to combine 
+beauty, simplicity and purpose to create a magical experience that is 
+effortless and powerful.\n\n
+
+Android apps make life easier and are easy to understand. When people 
+use your app for the first time, they should intuitively grasp the most 
+important features. The design work doesn\'t stop at the first use, though. 
+Android apps remove ongoing chores like file management and syncing. 
+Simple tasks never require complex procedures, and complex tasks are 
+tailored to the human hand and mind. People of all ages and cultures 
+feel firmly in control, and are never overwhelmed by too many choices 
+or irrelevant flash.\n\n
+
+It\'s not enough to make an app that is easy to use. Android apps 
+empower people to try new things and to use apps in inventive new 
+ways. Android lets people combine applications into new workflows 
+through multitasking, notifications, and sharing across apps. At the 
+same time, your app should feel personal, giving people access to 
+superb technology with clarity and grace.</string>
+
+    <string name="message_notification_main">Notification</string>
+    <string name="message_notification_content">Hope you’ll enjoy using KikiLink</string>
+    <string name="message_exchangecards_main">Exchange cards</string>
+    <string name="message_exchangecards_content">ABC exchanged cards via Card Radar</string>
+    
+    <string name="message_cardupdate_main">Card Update</string>
+    <string name="message_cardupdate_content">There’s no card update</string>
+    
+    
+    
+    <string name="STR_MSG_MAKE_CALL">Make Call</string>
+    <string name="STR_MSG_TALKING">Talking</string>
+    <string name="STR_MSG_CALLING">Calling</string>
+    <string name="STR_MSG_CONNECTING">Connecting</string>
+    <string name="STR_MSG_END_CALL">End Call</string>
+    <string name="STR_MSG_HOLDING">Holding</string>
+    <string name="STR_CHOOSE_OPTION">Choose Option</string>
+    <string name="STR_SELECT_PHOTO">Select photo from gallery or take from camera</string>
+
+    <string name="STR_BTN_HOLD">Hold</string>
+    <string name="STR_BTN_MUTE">Mute</string>
+    <string name="STR_BTN_UNMUTE">UnMute</string>
+    <string name="STR_BTN_SPEAKER">Speaker</string>
+    <string name="STR_BTN_MICROPHONE">Microphone</string>
+    <string name="STR_BTN_TALK">Talk</string>
+    <string name="STR_BTN_ANSWER">Answer</string>
+    <string name="STR_BTN_REJECT">Reject</string>
+    <string name="STR_BTN_VOICE_CALL">Voice Call</string>
+    <string name="STR_BTN_VIDEO_CALL">Video Call</string>
+    <string name="STR_BTN_FRONT">Front</string>
+    <string name="STR_BTN_BACK">Back</string>
+    <string name="STR_BTN_CLOSE_CAMERA">Close Camera</string>
+    <string name="STR_BTN_HANG_UP">Hang Up</string>
+    <string name="STR_BTN_OPEN_CAMERA">Open Camera</string>
+    
+    <string name="str_save_all">Save All</string>
+    <string name="str_dialog_confirm_title">Confirm export</string>
+    <string name="str_dialog_confirm_content">Are you sure to export\ninformation of the selected contact\n
+        to</string>
+    <string name="Export">Export</string>
+    <string name="edit_mycard_string_btncapture">Capture my card</string>
+    <string name="edit_mycard_string_btnaddfile_on">Add other side</string>
+     <string name="edit_mycard_string_btnaddfile_off">Edit backside image</string>
+     <!-- popup menu right  -->
+     <string name="STR_POPUPMENU_RIGHT_SORTBY">Sort by</string>
+     <string name="STR_POPUPMENU_RIGHT_SELECH">Select</string>
+     <string name="STR_POPUPMENU_RIGHT_CREATE_CARD">Create card</string>
+     <string name="STR_CHOOSE_SORT_BY">Choose sort type</string>
+     <string name="STR_SORTBY_NAME">Sort by Name</string>
+      <string name="STR_SORTBY_DATE">Sort by Create Date</string>
+       <string name="STR_SORTBY_COMPANY_NAME">Sort by Company Name</string>
+       
+    <string name="intro_email_body1">"I'm sharing my friend's businees card with you. 
+		I've been using KikiLink for business cards management. It's so cool and I think you'll like it, too. \nClick here to download: http://cn2.me/15ftix"</string>
+    <string name="intro_email_body2">"How to quickly save the cards?
+ 		If you are a KikiLink user reading this email on mobile phones, just open the attachment(the attachment contains contacts information and business card images of those people to be introduced) with KikiLink, and all cards will be just there."</string>
+</resources>

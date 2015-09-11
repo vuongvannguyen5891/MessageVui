@@ -1,0 +1,213 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="refreshlistview_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="refreshlistview_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:src">@drawable/refreshlistview_arrow</item>
+    </style>
+
+    <style name="refreshlistview_progress">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+
+    <style name="refreshlistview_comment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="refreshlistview_date">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="refreshlistview_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="actionMenuTextColor">@color/bg_all</item>
+        <item name="android:actionMenuTextColor">@color/bg_all</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarWidgetTheme">@style/Theme.stylingactionbar.widget</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:textColor">@color/bg_all</item>
+        <!-- for @color you have to create a color.xml in res > values -->
+    </style>
+
+    <style name="Theme.stylingactionbar.widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+
+    <style name="EditContactItemStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/layer_color_white</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/window_margin</item>
+    </style>
+
+    <style name="GlobalEntryTitle" parent="@style/GlobalNoAddEntryTitle">
+        <item name="android:textSize">@dimen/d_default_text_size</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/filed_title_margin_top</item>
+        <item name="android:drawableRight">@drawable/ic_edit_add</item>
+    </style>
+
+    <style name="GlobalNoAddEntryTitle">
+        <item name="android:textSize">@dimen/edit_item_label_text_size</item>
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/widget_gap_padding</item>
+        <item name="android:paddingRight">@dimen/widget_gap_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/entity_title_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/edit_item_text_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/edit_item_text_margin_bottom</item>
+    </style>
+
+    <style name="GlobalEditTextStyle">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/color_font_black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/global_edittext_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EditSpinnerStyle">
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textColor">@color/color_font_black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/cc_spinner_edit</item>
+        <item name="android:layout_width">@dimen/edit_spinner_width</item>
+        <item name="android:layout_height">@dimen/entity_title_layout_height</item>
+    </style>
+
+    <style name="GlobalBtnBaseStyle">
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/btn_layout_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="GlobalNormalBtn" parent="@style/GlobalBtnBaseStyle">
+        <item name="android:background">@drawable/btn_primary_bg</item>
+    </style>
+
+    <style name="GlobalSecondaryBtn" parent="@style/GlobalBtnBaseStyle">
+        <item name="android:background">@drawable/btn_secondary_bg</item>
+    </style>
+
+    <style name="GlobalDelBtn" parent="@style/GlobalBtnBaseStyle">
+        <item name="android:background">@drawable/btn_delete_bg</item>
+    </style>
+
+    <style name="GlobalTextNotificationStyle" parent="@style/GlobalTextStyle">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/color_gray2</item>
+    </style>
+
+    <style name="EditSpinnerStyle.large" parent="@style/EditSpinnerStyle">
+        <item name="android:textSize">@dimen/edit_item_group_text_size</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/edit_group_layout_height</item>
+    </style>
+
+    <style name="GlobalTextStyle">
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:textColor">@color/color_gray2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="GlobalTextBlackStyle" parent="@style/GlobalTextStyle">
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="CustomCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/ic_check</item>
+        <item name="android:button">@drawable/ic_check_button</item>
+    </style>
+
+    <style name="ResultButton" parent="@android:style/Widget.Button.Small">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ShareButton" parent="@android:style/Widget.Button.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Widget.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/frame_actionbar</item>
+    </style>
+
+    <style name="Widget.ActionBar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TransparentProgressDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="ThemeProgressDialogDigi" parent="@android:style/Theme.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@color/white</item>
+        <item name="android:bottomDark">@color/white</item>
+        <item name="android:bottomMedium">@color/white</item>
+        <item name="android:centerBright">@color/white</item>
+        <item name="android:centerDark">@color/white</item>
+        <item name="android:centerMedium">@color/white</item>
+        <item name="android:fullBright">@color/white</item>
+        <item name="android:fullDark">@color/white</item>
+        <item name="android:topBright">@color/white</item>
+        <item name="android:topDark">@color/white</item>
+    </style>
+
+</resources>
